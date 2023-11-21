@@ -1,0 +1,7 @@
+{
+    "parent": "item/shield_blocking",
+    "gui_light": "front",
+    "textures": {
+        "particle": "skillsmobs:item/scale_shield"
+    }
+}

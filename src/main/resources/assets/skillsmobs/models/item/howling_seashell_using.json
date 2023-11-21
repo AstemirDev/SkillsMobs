@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "skillsmobs:item/howling_seashell"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, -90, 45],
+      "translation": [-5.5, 1.75, 0],
+      "scale": [1, 1, 1]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, 90, -45],
+      "translation": [-5.5, 1.75, 0],
+      "scale": [1, 1, 1]
+    }
+  }
+}

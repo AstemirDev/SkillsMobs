@@ -1,0 +1,55 @@
+{
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "skillsmobs:entity/reptile/reptile"
+	},
+	"elements": [
+		{
+			"name": "Tnt",
+			"from": [13.5, 14, 2.25],
+			"to": [15.5, 16, 7.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [11.75, 8.625, 12, 8.875], "texture": "#0"},
+				"east": {"uv": [11.125, 8.625, 11.75, 8.875], "texture": "#0"},
+				"south": {"uv": [12.625, 8.625, 12.875, 8.875], "texture": "#0"},
+				"west": {"uv": [12, 8.625, 12.625, 8.875], "texture": "#0"},
+				"up": {"uv": [12, 8.625, 11.75, 8], "texture": "#0"},
+				"down": {"uv": [12.25, 8, 12, 8.625], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Tnt",
+			"from": [14.5, 14, -1.75],
+			"to": [14.5, 18, 2.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [11.625, 8.875, 11.625, 9.375], "texture": "#0"},
+				"east": {"uv": [11.125, 8.875, 11.625, 9.375], "texture": "#0"},
+				"south": {"uv": [12.125, 8.875, 12.125, 9.375], "texture": "#0"},
+				"west": {"uv": [11.625, 8.875, 12.125, 9.375], "texture": "#0"},
+				"up": {"uv": [11.625, 8.875, 11.625, 8.375], "texture": "#0"},
+				"down": {"uv": [11.625, 8.375, 11.625, 8.875], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-6.75, -1.75, -5.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [85, -9, 0],
+			"translation": [-6.75, 2.75, 0.25],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	},
+	"groups": [
+		{
+			"name": "Tnt",
+			"origin": [15, 15, 7.75],
+			"color": 5,
+			"children": [0, 1]
+		}
+	]
+}

@@ -1,0 +1,115 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "PiglinShaman",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Piglin",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Right_arm",
+					"parent": "Piglin",
+					"pivot": [-9, 21, 1],
+					"rotation": [-90, 22.5, 0],
+					"cubes": [
+						{"origin": [-12, 11, -1], "size": [4, 12, 4], "uv": [0, 40]}
+					]
+				},
+				{
+					"name": "Staff",
+					"parent": "Right_arm",
+					"pivot": [-9, 12, -1],
+					"cubes": [
+						{"origin": [-10, 12, -4], "size": [1, 1, 26], "uv": [48, 21]},
+						{"origin": [-12.5, 9.5, -10], "size": [6, 6, 6], "uv": [42, 48]},
+						{"origin": [-12.5, 9.5, -4], "size": [6, 0, 1], "uv": [41, 60]},
+						{"origin": [-16, 12.5, -5], "size": [12, 0, 4], "uv": [73, 43]}
+					]
+				},
+				{
+					"name": "Body",
+					"parent": "Piglin",
+					"pivot": [0, 9, 1],
+					"cubes": [
+						{"origin": [-8, 9, -4], "size": [16, 14, 10], "uv": [0, 0]},
+						{"origin": [-8, 5, -4], "size": [16, 4, 10], "uv": [0, 64]},
+						{"origin": [-8, 12, -4], "size": [16, 11, 10], "inflate": 0.5, "uv": [52, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Body",
+					"pivot": [0, 23, -3],
+					"cubes": [
+						{"origin": [-5, 29, -8], "size": [10, 4, 2], "uv": [0, 56]},
+						{"origin": [-5, 29, -8], "size": [10, 4, 2], "uv": [0, 56]},
+						{"origin": [-5, 21, -8], "size": [10, 8, 8], "uv": [0, 24]},
+						{"origin": [-3, 21, -10], "size": [6, 4, 2], "uv": [0, 62]}
+					]
+				},
+				{
+					"name": "Right_ear",
+					"parent": "Head",
+					"pivot": [-5, 28, -4],
+					"rotation": [0, 0, 12.5],
+					"cubes": [
+						{"origin": [-6, 23, -6], "size": [1, 5, 4], "uv": [42, 0]},
+						{"origin": [-7, 21, -5], "size": [3, 3, 0], "uv": [48, 40]}
+					]
+				},
+				{
+					"name": "Left_ear",
+					"parent": "Head",
+					"pivot": [5, 28, -4],
+					"rotation": [0, 0, -12.5],
+					"cubes": [
+						{"origin": [5, 23, -6], "size": [1, 5, 4], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Left_arm",
+					"parent": "Body",
+					"pivot": [9, 20, 1],
+					"rotation": [0, -22.5, -12.5],
+					"cubes": [
+						{"origin": [8, 11, -1], "size": [4, 12, 4], "uv": [36, 24]}
+					]
+				},
+				{
+					"name": "Potion",
+					"parent": "Left_arm",
+					"pivot": [10, 13, -1],
+					"rotation": [85, 0, 0],
+					"cubes": [
+						{"origin": [10, 6, -7], "size": [0, 13, 9], "uv": [91, 105]}
+					]
+				},
+				{
+					"name": "Left_leg",
+					"parent": "Piglin",
+					"pivot": [5, 9, 1],
+					"cubes": [
+						{"origin": [3, 0, -1], "size": [4, 10, 4], "uv": [32, 40]}
+					]
+				},
+				{
+					"name": "Right_leg",
+					"parent": "Piglin",
+					"pivot": [-5, 9, 1],
+					"cubes": [
+						{"origin": [-7, 0, -1], "size": [4, 10, 4], "uv": [16, 40]}
+					]
+				}
+			]
+		}
+	]
+}

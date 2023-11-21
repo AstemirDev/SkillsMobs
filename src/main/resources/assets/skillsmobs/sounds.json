@@ -1,0 +1,129 @@
+{
+	"item.howling_seashell.use": {
+		"sounds": [
+			"skillsmobs:item/howling_seashell_use"
+		]
+	},
+	"entity.penguin.swing": {
+		"sounds": [
+			"skillsmobs:mob/penguin/swing"
+		]
+	},
+	"entity.penguin.hurt": {
+		"sounds": [
+			"skillsmobs:mob/penguin/hurt1",
+			"skillsmobs:mob/penguin/hurt2",
+			"skillsmobs:mob/penguin/hurt3"
+		]
+	},
+	"entity.penguin.death": {
+		"sounds": [
+			"skillsmobs:mob/penguin/death1",
+			"skillsmobs:mob/penguin/death2"
+		]
+	},
+	"entity.penguin.idle": {
+		"sounds": [
+			"skillsmobs:mob/penguin/idle1",
+			"skillsmobs:mob/penguin/idle2",
+			"skillsmobs:mob/penguin/idle3",
+			"skillsmobs:mob/penguin/idle4",
+			"skillsmobs:mob/penguin/idle5"
+		]
+	},
+
+	"entity.piglin_shaman.idle": {
+		"sounds": [
+			"skillsmobs:mob/piglin_shaman/idle1",
+			"skillsmobs:mob/piglin_shaman/idle2",
+			"skillsmobs:mob/piglin_shaman/idle3",
+			"skillsmobs:mob/piglin_shaman/idle4"
+		]
+	},
+	"entity.piglin_shaman.angry": {
+		"sounds": [
+			"skillsmobs:mob/piglin_shaman/angry1",
+			"skillsmobs:mob/piglin_shaman/angry2"
+		]
+	},
+	"entity.piglin_shaman.death": {
+		"sounds": [
+			"skillsmobs:mob/piglin_shaman/death"
+		]
+	},
+	"entity.piglin_shaman.hoglin_appear": {
+		"sounds": [
+			"skillsmobs:mob/piglin_shaman/hoglin_appear"
+		]
+	},
+	"entity.piglin_shaman.hurt": {
+		"sounds": [
+			"skillsmobs:mob/piglin_shaman/hurt"
+		]
+	},
+	"entity.piglin_shaman.summon": {
+		"sounds": [
+			"skillsmobs:mob/piglin_shaman/summon"
+		]
+	},
+	"entity.reptile.death": {
+		"sounds": [
+			"skillsmobs:mob/reptile/death"
+		]
+	},
+	"entity.reptile.idle": {
+		"sounds": [
+			"skillsmobs:mob/reptile/idle1",
+			"skillsmobs:mob/reptile/idle2",
+			"skillsmobs:mob/reptile/idle3",
+			"skillsmobs:mob/reptile/idle4"
+		]
+	},
+	"entity.reptile.hurt": {
+		"sounds": [
+			"skillsmobs:mob/reptile/hurt1",
+			"skillsmobs:mob/reptile/hurt2"
+		]
+	},
+	"entity.reptile.ability": {
+		"sounds": [
+			"skillsmobs:mob/reptile/ability"
+		]
+	},
+	"entity.lava_turtle.attack": {
+		"sounds": [
+			"skillsmobs:mob/lava_turtle/attack"
+		]
+	},
+	"entity.lava_turtle.death": {
+		"sounds": [
+			"skillsmobs:mob/lava_turtle/death1",
+			"skillsmobs:mob/lava_turtle/death2"
+		]
+	},
+	"entity.lava_turtle.hurt": {
+		"sounds": [
+			"skillsmobs:mob/lava_turtle/hurt1",
+			"skillsmobs:mob/lava_turtle/hurt2",
+			"skillsmobs:mob/lava_turtle/hurt3"
+		]
+	},
+	"entity.lava_turtle.idle": {
+		"sounds": [
+			"skillsmobs:mob/lava_turtle/idle1",
+			"skillsmobs:mob/lava_turtle/idle2",
+			"skillsmobs:mob/lava_turtle/idle3"
+		]
+	},
+	"entity.lava_turtle.shell_hit": {
+		"sounds": [
+			"skillsmobs:mob/lava_turtle/shell_hit1",
+			"skillsmobs:mob/lava_turtle/shell_hit2"
+		]
+	},
+	"entity.lava_turtle.spin": {
+		"sounds": [
+			"skillsmobs:mob/lava_turtle/spin"
+		]
+	}
+}

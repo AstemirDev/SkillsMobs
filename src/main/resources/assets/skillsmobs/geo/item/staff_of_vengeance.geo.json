@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.StaffOfVengeance",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Staff",
+					"pivot": [0, 8, -1],
+					"cubes": [
+						{"origin": [-1, 8, -4], "size": [1, 1, 26], "uv": [48, 21]},
+						{"origin": [-3.5, 5.5, -10], "size": [6, 6, 6], "uv": [42, 48]},
+						{"origin": [-3.5, 5.5, -4], "size": [6, 0, 1], "uv": [41, 60]},
+						{"origin": [-7, 8.5, -5], "size": [12, 0, 4], "uv": [73, 43]}
+					]
+				}
+			]
+		}
+	]
+}

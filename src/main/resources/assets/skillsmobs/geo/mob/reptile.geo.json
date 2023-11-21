@@ -1,0 +1,134 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "reptile",
+					"pivot": [0, 13, 0]
+				},
+				{
+					"name": "body",
+					"parent": "reptile",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-5, 12, -2], "size": [10, 7, 5], "uv": [0, 39]}
+					]
+				},
+				{
+					"name": "top",
+					"parent": "body",
+					"pivot": [0, 19, 0],
+					"cubes": [
+						{"origin": [-5, 17, -2], "size": [10, 9, 5], "inflate": 0.5, "uv": [0, 73]},
+						{"origin": [-5, 19, -2], "size": [10, 7, 5], "uv": [39, 0]}
+					]
+				},
+				{
+					"name": "arm2",
+					"parent": "top",
+					"pivot": [6, 25, 0],
+					"rotation": [0, 0, -10],
+					"cubes": [
+						{"origin": [5, 13, -1.5], "size": [3, 13, 4], "uv": [28, 52]},
+						{"origin": [5, 13, -1.5], "size": [3, 13, 4], "inflate": 0.5, "uv": [69, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "arm1",
+					"parent": "top",
+					"pivot": [-6, 25, 0],
+					"rotation": [0, 0, 10],
+					"cubes": [
+						{"origin": [-8, 13, -1.5], "size": [3, 13, 4], "uv": [11, 51]},
+						{"origin": [-8, 13, -1.5], "size": [3, 13, 4], "inflate": 0.5, "uv": [69, 0]}
+					]
+				},
+				{
+					"name": "Tnt",
+					"parent": "arm1",
+					"pivot": [-7, 15, -0.25],
+					"rotation": [-90, 0, 0],
+					"cubes": [
+						{"origin": [-7.5, 14, -5.75], "size": [2, 2, 5], "uv": [89, 64]},
+						{"origin": [-6.5, 14, -9.75], "size": [0, 4, 4], "uv": [89, 67]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "top",
+					"pivot": [0, 26, -1],
+					"cubes": [
+						{"origin": [-3, 28, -10], "size": [6, 2, 6], "uv": [51, 41]},
+						{"origin": [5, 33, -6], "size": [0, 5, 11], "uv": [0, 57]},
+						{"origin": [-8, 33, -6], "size": [14, 0, 11], "uv": [0, 0]},
+						{"origin": [-4, 33, -4], "size": [8, 3, 7], "uv": [46, 12]},
+						{"origin": [-4, 26, -4], "size": [8, 7, 7], "uv": [30, 27]},
+						{"origin": [-3, 26, 3], "size": [6, 7, 2], "uv": [71, 54]}
+					]
+				},
+				{
+					"name": "jaw",
+					"parent": "head",
+					"pivot": [0, 28, -4],
+					"cubes": [
+						{"origin": [-3, 26, -10], "size": [6, 2, 6], "uv": [65, 63]}
+					]
+				},
+				{
+					"name": "tongue",
+					"parent": "jaw",
+					"pivot": [0, 28, -6],
+					"cubes": [
+						{"origin": [-1.5, 28, -12], "size": [3, 0, 6], "uv": [65, 71]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "body",
+					"pivot": [0, 13, 3],
+					"rotation": [-30, 0, 0],
+					"cubes": [
+						{"origin": [-3, 10, 3], "size": [6, 5, 9], "uv": [0, 25]},
+						{"origin": [-3, 15, 3], "size": [6, 2, 9], "uv": [30, 41]}
+					]
+				},
+				{
+					"name": "tail1",
+					"parent": "tail",
+					"pivot": [0, 11, 12],
+					"cubes": [
+						{"origin": [-3, 10, 12], "size": [6, 3, 11], "uv": [0, 11]},
+						{"origin": [-3, 13, 12], "size": [6, 2, 11], "uv": [23, 14]}
+					]
+				},
+				{
+					"name": "leg2",
+					"parent": "reptile",
+					"pivot": [3, 12, 0.5],
+					"rotation": [0, 0, 0],
+					"cubes": [
+						{"origin": [1, 0, -1.5], "size": [4, 12, 4], "uv": [53, 52]}
+					]
+				},
+				{
+					"name": "leg1",
+					"parent": "reptile",
+					"pivot": [-2.9, 12, 0.5],
+					"cubes": [
+						{"origin": [-4.9, 0, -1.5], "size": [4, 12, 4], "uv": [60, 22]},
+						{"origin": [-8.9, 3, 0.5], "size": [4, 3, 0], "uv": [76, 26]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+    "parent": "item/shield",
+    "gui_light": "front",
+    "textures": {
+        "particle": "skillsmobs:item/scale_shield"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "skillsmobs:item/scale_shield_blocking"
+        }
+    ]
+}

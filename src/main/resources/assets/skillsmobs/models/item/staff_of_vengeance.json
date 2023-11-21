@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "skillsmobs:item/staff_of_vengeance"
+  }
+}

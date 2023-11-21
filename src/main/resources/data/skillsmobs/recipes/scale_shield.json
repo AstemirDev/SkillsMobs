@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:shield"
+    },
+    {
+      "item": "skillsmobs:reptile_skin"
+    }
+  ],
+  "result": {
+    "item": "skillsmobs:scale_shield"
+  }
+}

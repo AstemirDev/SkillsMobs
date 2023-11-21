@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.astemir.skillsmobs.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "SkillsMobs.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "entity.skillsmobs.piglin_shaman": "Пиглин шаман",
+  "entity.skillsmobs.ghost_hoglin": "Призрак хоглина",
+  "entity.skillsmobs.penguin": "Пингвин",
+  "entity.skillsmobs.reptile": "Рептилия",
+  "entity.skillsmobs.lava_turtle": "Лавопаха",
+  "entity.skillsmobs.hand_dynamite": "Ручной динамит",
+  "item.skillsmobs.staff_of_vengeance": "Загробный посох",
+  "item.skillsmobs.reptile_hat": "Шляпа рептилии",
+  "item.skillsmobs.reptile_skin": "Кожа рептилии",
+  "item.skillsmobs.scale_shield": "Чешуйчатый щит",
+  "item.skillsmobs.nether_mana": "Незер мана",
+  "item.skillsmobs.hand_dynamite": "Динамитная шашка",
+  "item.skillsmobs.howling_seashell": "Воющая раковина",
+  "item.skillsmobs.penguin_spawn_egg": "Яйцо призыва пингвина",
+  "item.skillsmobs.reptile_spawn_egg": "Яйцо призыва рептилии",
+  "item.skillsmobs.lava_turtle_spawn_egg": "Яйцо призыва лавопахи",
+  "item.skillsmobs.piglin_shaman_spawn_egg": "Яйцо призыва шамана пиглинов"
+}
